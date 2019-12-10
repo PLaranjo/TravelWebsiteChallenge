@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+
+  nav {
+    height: inherit;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      margin-left: 10%;
+    }
+
+    ul {
+      width: 70%;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .login-logout {
+    height: inherit;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .input {
+      margin: 0px 30px;
+    }
+
+    .button {
+      background-color: #555555;
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .signup-bt {
+      background-color: #e7e7e7;
+      color: black;
+    }
+
+    .sy-input {
+      height: 30px;
+      border-radius: 25px;
+      padding: 0 5px;
+    }
+  }
+}
+main {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  section.center {
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        margin: 20px 0px;
+      }
+    }
+  }
+}
